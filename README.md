@@ -1,6 +1,6 @@
-FixedPoint
+FixedPoint.js
 ==========
 
-Anchors an HTML element to a background image
+Anchors HTML elements to a full-body background image
 
 ####**[→ Example ←](http://labitov.com/projects/FixedPoint/example/)**
