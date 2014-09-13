@@ -3,4 +3,4 @@ FixedPoint
 
 Anchors an HTML element to a background image
 
-Example in index.html
+####**[→ Example ←](http://labitov.com/projects/FixedPoint/example/)**
