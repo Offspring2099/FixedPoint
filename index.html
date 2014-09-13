@@ -1,52 +1,52 @@
 
 <html>
-	<head>
-		<style type="text/css">
-			html {
-				font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-			}
-		
-			body {
-				background-image: url("./background-image.jpg");
-				background-position: center center;
-				background-repeat: no-repeat no-repeat;
-				background-size: cover;
-				left: 0;
-				right: 0;
-				top: 0;
-				bottom: 0;
-				display: block;
-				height: 100%;
-				width: 100%;
-				overflow: hidden;
-			}
-			
-			#div1, #div2 {
-				background-color: green;
-				color: #FFF;
-				position: absolute;
-				display: none;
-				padding: 10px;
-				width: 200px;
-			}
-			
-			#div2 {
-				background-color: black;
-				text-align: right;
-			}
-		</style>
-	</head>
-	<body>
-		<div id="div1" >Anchored using top-left corner</div>
-		<div id="div2" >Anchored using top-right corner</div>
-		
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script type="text/javascript" src="./fixedpoint.js"></script>
-		<script>
-			(function(){
-				new FixedPoint(1680, 1050, '#div1', 'left',  1160, 650);
-				new FixedPoint(1680, 1050, '#div2', 'right',  876, 211);
-			})();
-		</script>
-	</body>
+    <head>
+        <style type="text/css">
+            html {
+                font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+            }
+        
+            body {
+                background-image: url("./background-image.jpg");
+                background-position: center center;
+                background-repeat: no-repeat no-repeat;
+                background-size: cover;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                display: block;
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+            }
+            
+            #div1, #div2 {
+                background-color: green;
+                color: #FFF;
+                position: absolute;
+                display: none;
+                padding: 10px;
+                width: 200px;
+            }
+            
+            #div2 {
+                background-color: black;
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="div1" >Anchored using top-left corner</div>
+        <div id="div2" >Anchored using top-right corner</div>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./fixedpoint.js"></script>
+        <script>
+            (function(){
+                new FixedPoint(1680, 1050, '#div1', 'left',  1160, 650);
+                new FixedPoint(1680, 1050, '#div2', 'right',  876, 211);
+            })();
+        </script>
+    </body>
 </html>
