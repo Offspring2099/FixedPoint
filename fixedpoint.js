@@ -1,7 +1,8 @@
 /**
- * FixedPoint.js - Anchors an HTML element to a background image.
- * v1.0.0.1
- *
+ * FixedPoint.js - Anchors HTML elements to a full-body background image.
+ * @author Dmitriy Labitov, Curtis Anderson
+ * @version 1.0.0.1 - (2014/04/05)
+ * @license MIT License
  */
 
 
