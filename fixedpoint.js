@@ -1,5 +1,7 @@
 /**
  * FixedPoint.js - Anchors an HTML element to a background image.
+ * v1.0.0.1
+ *
  */
 
 
